@@ -15,14 +15,14 @@ h1 {
 
 main img {
     width: 150px;
-    height: atuo;
+    height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main {
