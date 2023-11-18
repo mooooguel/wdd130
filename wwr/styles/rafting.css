@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --primary-color: #DCE2C8;
+    --secondary-color: #A8DCD1;
+    --accent1-color: #65DEF1;
+    --accent2-color: #F17F29;
+
+    --heading-font: 'Oswald', serif;
+    --paragraph-font: 'Oswald', serif;
+
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: var(--accent2-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--primary-color);
+}
+
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+article {
+    position: absolute;
+    background: red;
+    top: 415px;
+    left: 1000px;
+}
+
+
+.positioned {
+    position: absolute;
+    background: blue;
+    top: 4500px;
+    left: 315px;
+}
+
+.title {
+    position: absolute;
+    background: red;
+    top: 340px;
+    left: 800px;
+}
+
+.over {
+    float: left;
+}
+
+
+

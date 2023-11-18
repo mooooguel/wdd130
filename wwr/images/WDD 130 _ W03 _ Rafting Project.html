@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://byui-cse.github.io/wdd130-ww-course/week03/prove-rafting-aboutus.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | W03 | Rafting Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./WDD 130 _ W03 _ Rafting Project_files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./WDD 130 _ W03 _ Rafting Project_files/course.css">
+  <link rel="stylesheet" href="./WDD 130 _ W03 _ Rafting Project_files/ir-black.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="page">
+      <h1>WDD 130<span id="coursetitle">: Web Fundamentals</span></h1>
+      <img src="./WDD 130 _ W03 _ Rafting Project_files/byui-logo.svg" alt="BYU-I logo" class="logo">
+    </div>
+  </header>
+
+  <main class="page">
+    <nav>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course">Home</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week01">W1</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week02">W2</a></span>
+      <span class="active"><a href="https://byui-cse.github.io/wdd130-ww-course/week03">W3</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week04">W4</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week05">W5</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week06">W6</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week07">W7</a></span>
+      <span><a href="https://byui.instructure.com/calendar" target="_blank">I-Learn</a></span>
+    </nav>
+    <h2>W03 Rafting Project: About Us Page</h2>
+    <h3>Overview</h3>
+    <p>In this assignment you will create a page for the rafting site project. This page will be an
+      "About Us" type of page which may provide contact information, history, and other promotions.
+      The wireframe for this page is provided and you will have the opportunity to refine your
+      work even after this initial page build and Page Evaluation.</p>
+    <h3>Instructions</h3>
+    <h4 class="step">File Setup</h4>
+    <ol>
+      <li>In VS Code, add a file named "<strong>about.html</strong>" in the <strong>wwr</strong>
+        directory. This file is at the same level/directory as your site-plan-rafting.html file.
+        <div class="callout info">If you forgot how to add a file to a specific directory, review
+          the steps from the <a href="https://byui-cse.github.io/wdd130-ww-course/week02/prove-rafting-siteplan.html">last assignment</a>.
+        </div>
+      </li>
+
+    </ol>
+    <h4 class="step">Develop the Structure: HTML</h4>
+    <ol>
+      <li>Use this wireframe sketch to build the basic structure of the <strong>about.html</strong>
+        page. You do <strong>not</strong> need to worry about the horizontal layout.
+        <figure>
+          <img src="./WDD 130 _ W03 _ Rafting Project_files/wwr-wireframe-aboutus.png" alt="Wireframe Design for Rafting Project About Us Page" loading="lazy" width="550">
+          <figcaption>Figure 1: Wireframe Design for Rafting Project About Us Page</figcaption>
+        </figure>
+        <div class="callout info">You do <strong>not</strong> need to complete the header and footer
+          horizontal layouts at this point.</div>
+      </li>
+      <li>Start by writing the <a href="https://byui-cse.github.io/wdd130-ww-course/week07/dev-standards.html">standards based</a> HTML
+        structure.</li>
+      <li>Your page should have a <code>header</code>, <code>main</code>, and <code>footer</code>
+        element in the main line of the <code>body</code>.</li>
+      <li>The <code>header</code> contains two items:
+        <ol>
+          <li>A logo which you have selected and shown in your rafting site plan. This logo image
+            and all images used on the site need to be located in a <strong>images</strong>
+            directory within your <strong>wwr</strong> directory. Create this images folder if you
+            have not done so already.</li>
+          <li>A <code>nav</code> element with four <code>&lt;a&gt;</code> tags and labeled as shown.
+            The <code>href</code> attribute values, the page references, can be set now even though
+            the pages do not all exist. <ul class="check">
+              <li>index.html (the home page of wwr, not to be confused with the course home page.)
+              </li>
+              <li>about.html</li>
+              <li>trips.html</li>
+              <li>contact.html</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="callout info">Again, do not worry about the horizontal <strong>layout</strong>
+          shown in the wireframe at this point.</div>
+      </li>
+      <li>The <code>main</code> element should contain the following three(3) elements:
+        <ol>
+          <li>A container <code>div</code> with a class of <code>hero</code> that itself contains:
+            <ul class="check">
+              <li>A hero image <code>img</code> that will be in the entire background of the
+                <code>div</code> background.<br> This image should be
+                stored in your <strong>images</strong> folder in the <strong>wwr</strong> folder.
+                <div class="callout info">
+                  <strong>Image Resources</strong><br>
+                  📑 <a href="https://byui-cse.github.io/wdd130-ww-course/resources/wwr-image-repo.html" target="_blank">WWR
+                    Image
+                    Repository</a><br>
+                  📑 <a href="https://unsplash.com/s/photos/white-water-rafting" target="_blank">Unsplash</a>
+                </div>
+              </li>
+              <li>A <code>h1</code> element that has the title of the rafting company as the text
+                content.</li>
+              <li>An <code>article</code> element that contains:
+                <ul>
+                  <li>An smaller <code>img</code> element that portrays a happy client or happy,
+                    working
+                    employee.</li>
+                  <li>A <code>p</code> element with the company purpose, mission, creed, motto, etc.
+                    It is Ok to use non-sense, placeholder language for now.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+          <li>A <code>section</code> element with the following contents:
+            <ul class="check">
+              <li>A <code>h2</code> element with the title of the section which is
+                "<strong>History</strong>".</li>
+              <li>A <code>p</code> element with a brief history of the company. It is OK to use
+                nonsense language.</li>
+            </ul>
+          </li>
+          <li>A <code>section</code> element with the following contents.
+            <ul class="check">
+              <li>A <code>h2</code> element with the title of the section which is
+                "<strong>Adventure Awaits You!</strong>".</li>
+              <li>A series of five (5) <code>img</code> elements representing white water rafting.
+                <div class="callout info">
+                  Do not worry about the layout of the images. Later we will use CSS to layout the
+                  images.
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <details open="">
+          <summary>Check Your Understanding</summary>
+          <pre><code class="html hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hero"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Rafting Company Name<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet consectetur ...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>History<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet consectetur adipisicing ...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Adventure Awaits You!<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/..."</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span></code></pre>
+        </details>
+      </li>
+      <li>A <code>footer</code> element that contains:
+
+        <ul class="check">
+          <li>A <code>p</code> paragraph element containing a copyright symbol, the year, the
+            rafting company name, and your name.</li>
+          <li>Three (3) <strong>img</strong> elements that are encased by <code>a</code> anchor
+            elements pointing to three different social media outlets. The links can be generic.
+            <details open="">
+              <summary>Example</summary>
+              <pre><code class="html hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sociallinks"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://facebook.com"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/facebook.svg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Facebook"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://twitter.com"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/twitter.svg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Twitter"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://instagram.com"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/instagram.svg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Instagram"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span></code></pre>
+            </details>
+            <div class="callout info">
+              <strong>Social Media Icon Resources</strong><br>
+              📑<a href="https://www.iconfinder.com/search?q=facebook&amp;price=free&amp;license=gte__2" target="_blank">iconfinder.com</a><br>
+              📑<a href="https://fonts.google.com/icons" target="_blank">Google Icons</a>
+            </div>
+
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <h4 class="step">Write the CSS</h4>
+    <ol>
+      <li>Create a CSS file for your rafting site named "<strong>rafting.css</strong>" and store it
+        in
+        the <strong>styles</strong> folder within the <strong>wwr</strong> folder.</li>
+      <li>Add an <code>@import</code> reference from Google Fonts to use the font(s) you have
+        selected in your site plan.</li>
+      <li>Define the CSS variables in the document <code class="css">:root</code> pseudo-class
+        selector from the color schema you have selected and documented in your website plan.</li>
+      <li>Begin by styling the headings and paragraph elements.</li>
+      <li>Add colors to the fonts.</li>
+      <li>Remove the underlines from the social media links.</li>
+      <li>Consider limiting the entire width of the page to make it easier to design the content.
+      </li>
+    </ol>
+
+    <h4 class="step">Style the Hero Container using Position Absolute</h4>
+    <ol>
+      <li>The <code>div</code> with the class of <code>hero</code> is positioned
+        <code>relative</code> in order the <code>h1</code> and the <code>article</code> elements to
+        be positioned on top of the hero image using <code>absolute</code> positioning.
+      </li>
+      <li>The hero image fits within the allocated space.
+        <div class="callout info">Use a relative width CSS declaration for the hero
+          image and make the image a block to fill the width of the container.
+          <details open="">
+            <summary>Example</summary>
+            <pre><code class="css hljs language-css"><span class="hljs-selector-class">.hero</span> <span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">height</span>: auto;
+}</code></pre>
+            <p>We use height auto in order to maintain the aspect ratio of the image which is
+              critical. In addition, your image should be edited to be large enough to fill this
+              space. You cannot force images to be larger than their original size or else they will
+              be pixelated and ugly.</p>
+          </details>
+        </div>
+        
+      </li>
+      <li>The <code>h1</code> heading is positioned absolutely.</li>
+      <li>The <code>article</code> is positioned absolutely.
+      </li><li>The <code>img</code> inside the article floats to the right of the <code>p</code>
+        paragraph.</li>
+      <li>Consider styling the background-color and opacity of the <code>article</code> to fit the
+        design and make sure it is readable.</li>
+    </ol>
+    <div class="callout info"><a href="https://byui-cse.github.io/wdd130-ww-course/images/w03/about-sample.png" target="_blank">Click
+        here</a> to see a sample of what the page may look like at this point. Yours will have
+      different content/images but should have a similiar layout.
+    </div>
+
+    <h4 class="step">Testing</h4>
+    <ol>
+      <li>Test your work continuously as you work through the steps by having your page loaded in
+        your local browser using <strong>Live Server</strong>. You do <strong>NOT</strong> need to
+        be on the internet while developing your pages.</li>
+      <li>Enter your GitHub username using this <a href="https://byui-cse.github.io/wdd130-ww-course/grader/w03-project-about.html">W03:
+          Project Site - About Us</a> tool to verify that you have the basic, required HTML
+        document content.</li>
+      <li><strong>Validate</strong> and correct any errors with your ☑️HTML and ☑️CSS using the <a href="https://byui-cse.github.io/wdd130-ww-course/week01/setup-webdev-extension.html">Web Developer</a> browser extension under
+        Tools and Validate Local HTML and CSS.</li>
+      <li>Every page in this course will be expected to pass the <a href="https://byui-cse.github.io/wdd130-ww-course/week07/dev-standards.html">development standards checklist</a>. Review your
+        rendered page and markup against this checked items.</li>
+    </ol>
+
+
+
+    <h3>Submission</h3>
+    <ol>
+      <li>Test your work continuously as you work through the steps by having your page loaded in
+        your local browser using <strong>Live Server</strong>. You do <strong>NOT</strong> need to
+        be on the internet while developing your pages.</li>
+      <li>When you are finished, commit your changes and push them to your wdd130 GitHub Pages
+        repository.</li>
+      <li>Submit the page's URL (web address) in I-Learn. The URL will look something like this:
+        <code class="cli">https://<em>githubusername</em>.github.io/wdd130/wwr/about.html</code>
+      </li>
+    </ol>
+  </main>
+  <footer>
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+  </footer>
+  <script src="./WDD 130 _ W03 _ Rafting Project_files/highlight.min.js.download"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="./WDD 130 _ W03 _ Rafting Project_files/prevent-code-select.js.download"></script>
+
+
+</body></html>
