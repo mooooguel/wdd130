@@ -32,6 +32,7 @@ main img {
 
 p {
     padding: 0;
+    max-width: 500px;
 }
 
 main {
@@ -39,7 +40,7 @@ main {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     text-align: center;
 }
 
@@ -74,4 +75,5 @@ footer {
     padding: 1rem;
     background-color: #950;
     color: #111;
+    max-width: 20em;
 }
