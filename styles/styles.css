@@ -26,7 +26,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    border: 1px steelblue;
+    border-bottom: 1px solid steelblue;
 }
 
 main img {
@@ -44,17 +44,21 @@ p {
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
 }
 
 aside h2 {
     position: absolute;
-    bottom: 375px;
+    bottom: 200px;
     left: 100px;
 }
 
@@ -68,7 +72,7 @@ aside img {
 
 
 
-header, footer {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -83,4 +87,9 @@ header, footer {
     background-color: #950;
     color: #111;
     max-width: 20em;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
