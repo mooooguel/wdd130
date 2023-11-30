@@ -16,12 +16,21 @@
 }
 
 
-
+body {
+    max-width: 1000px;
+    margin: auto;
+}
 
 
 header {
-    max-width: 840px;
-    margin: 0 auto;
+    display: grid;
+    max-width: 1000px;
+    margin: 10px;
+}
+
+
+.logo{
+    align-self: flex-start;
 }
 
 nav {
@@ -42,9 +51,6 @@ nav a {
 
 }
 
-
-
-
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
@@ -55,83 +61,86 @@ nav a:hover {
 }
 
 
-.hero img {
-    display: grid;
-    width: 100%;
-    height: auto;
+.hero {
     position: relative;
-    padding: 50px;
-    margin: 20px;
 }
 
 .hero h1 {
     position: absolute;
-}
-
-.hero article {
-    position: absolute;
-}
-
-
-.right {
-    float: right;
+    top: 10%;
+    left: 35%;
+    background-color: rgba(168,220,209,0.5);
 }
 
 
 
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
-
+#text {
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20%;
+    float: left;
+    width: 500px;
+    height: 200px;
+}
 
 
 
 article {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
+    text-align: center;
     position: absolute;
-    background: lightblue;
-    top: 415px;
-    left: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(168,220,209,0.5);
+    max-height: 200px;
 }
 
 
-
-
-.left {
-    grid-area: left;
-    border-right: 1px solid;
-}
-
-
-
-section ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex: 20%;
+article img {
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
     padding: 5px;
-    
+    top: 50%;
 }
 
 
-.positioned {
-    position: absolute;
-    background: blue;
-    top: 4500px;
-    left: 315px;
+
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 
-.title {
-    position: absolute;
-    background: red;
-    top: 340px;
-    left: 800px;
+
+.text {
+    font-size: 16px;
 }
 
-.over {
-    float: left;
+.image {
+    max-width: 100%;
+    max-height: 100%;
 }
+
+
+
+
 
 
 
