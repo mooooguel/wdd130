@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    margin: 3px auto;
+    color: maroon;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid red;
+    border-radius: 0.75em;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px dashed yellow;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.75rem;
+    color: maroon;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: indigo;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: 1em;
+    color: lightgray;
+    border-top: 3px solid black;
+}
+
+.quiz-item {
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.column1 {
+    grid-template-columns: 3fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.quiz-item p {
+    color:gray;
+}
