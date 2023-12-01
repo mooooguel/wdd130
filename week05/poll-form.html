@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Michael Watson">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <title>WDD 130 | Michael Watson | HTML Form - User Poll</title>
+        
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Michael Watson | HTML Form - User Poll</h1>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2"><label>Full Name: <input type="text" name="fullname"></label></div>
+                <div class="form-item column2"><label>Email: <input type="email" name="useremail"></label></div>
+                
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite internet browser? </label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="edge">Edge</option>
+                            <option value="brave">Brave</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet? </label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <div>
+                        <label for="feedback">List the places you have lived: </label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Arizona, Wisconsin, Arkansas, Maryland, Utah"></textarea>
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        
+        <footer>
+            <p>©2024 | HTML Form - User Poll Activity | Michael Watson</p>
+        </footer>
+    </body>
+</html>
+
+
+

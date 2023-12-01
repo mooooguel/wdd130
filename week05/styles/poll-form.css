@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid green;
+}
+
+h1 {
+    margin: 3 auto;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid maroon;
+    border-radius: 0.75em;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px dashed green;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.75rem;
+    color: maroon;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: 1em;
+    color: lightgray;
+    border-top: 3px solid green;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
