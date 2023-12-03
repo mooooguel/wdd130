@@ -130,6 +130,7 @@ article img {
 
 section h2{
     text-align: center;
+    color: navy;
 }
 
 .history img, p {
@@ -193,7 +194,112 @@ section h2{
 }
 
 
+.employee {
+    border: solid orange;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.employee img {
+    width: 250px;
+    height: auto;
+}
+
+.map {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: solid orange;
+    margin: 5px;
+    padding: 5px;
+}
+
+.map h1{
+    border-bottom: solid black;
+    color: navy;
+}
+
+
+.employee {
+    text-align: center;
+}
 
 
 
 
+iframe {
+    border: solid gray;
+}
+
+legend {
+    text-align: center;
+    color: navy;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+fieldset {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.wireframe {
+    text-align: left;
+}
+
+
+
+textarea {
+    width: 650px;
+}
+
+
+.name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0.5rem 0;
+}
+
+
+.email {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 0.5rem 0;
+}
+
+.purpose {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0.5rem 0;
+}
+
+.sub {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 0.5rem 0;
+}
+
+.message {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 0.5rem 0;
+}
+
+.submit {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+
+.comms {
+    text-align: center;
+}
