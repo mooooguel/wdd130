@@ -229,6 +229,19 @@ section h2{
 
 
 
+.top-area{
+    text-align: center;
+    border: solid orange 3px;
+    
+}
+
+
+.contact_us {
+    padding: 5px;
+    margin: 3px;
+}
+
+
 
 iframe {
     border: solid gray;
@@ -302,4 +315,38 @@ textarea {
 
 .comms {
     text-align: center;
+}
+
+
+section .trips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trips {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    border: solid orange 3px;
+    width: 90%;
+    
+}
+
+.trips img {
+    display:block;
+    border-radius: .75%;
+    border: solid lightblue 2px;
+    max-width: 80%;
+    height: auto;
+    margin: 5px;
+
+}
+
+.trips .column_1 {
+    text-align: center;
+    max-width: 70%;
+    border-right: dashed lightblue 2px;
+    align-items: center;
+    justify-content: center;
 }
