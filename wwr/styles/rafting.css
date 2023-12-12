@@ -345,8 +345,62 @@ section .trips {
 
 .trips .column_1 {
     text-align: center;
-    max-width: 70%;
+    max-width: 65%;
     border-right: dashed lightblue 2px;
     align-items: center;
     justify-content: center;
 }
+
+.column_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 35%;
+    margin: auto;
+    row-gap: 300px;
+    
+}
+
+.trips .column_2, p {
+    border: solid lightblue 2px;
+    margin: 5px;
+    border-radius: .75%;
+    
+}
+
+
+.home {
+    position: relative;
+    text-align: center;
+}
+
+.action {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    height: 100px;
+    border: solid orange 3px;
+    color: black;
+}
+
+
+.bottom-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid navy 3px;
+    margin: 5px;
+    
+    
+}
+
+.bimg1, .bimg2 {
+    width: 300px;
+}
+
+
+
+.home_img1, .home_img2 {
+    text-align: center;
+}
+
